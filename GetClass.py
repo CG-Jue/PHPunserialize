@@ -18,8 +18,17 @@ def get_the_classes(outf):
     for i in json.load(outf):
         if i[0] == "Class":
             Classes.append(i[1])
-    print(Classes)
+    # print(Classes)
     return Classes
+def prapreClass(data):
+    for tempdata in data:
+        print(tempdata)
+        print('分割线==================')
+        for i in tempdata:
+            pass
+            # print(i)
 
 with open("input1.json","r") as inf:
-    get_the_classes(inf)
+    prapreClass(get_the_classes(inf))
+
+
