@@ -1,0 +1,53 @@
+
+{
+    "lineno": 49, 
+    "name": "Crypto", 
+    "type": None, 
+    "extends": None, 
+    "implements": [], 
+    "traits": [], 
+    "nodes": 
+      [
+        [
+          "Method", 
+            {
+              "lineno": 50, 
+              "name": "__wakeup", 
+              "modifiers": ["public"], 
+              "params": [], 
+              "nodes": 
+                [
+                  [
+                    "Echo", 
+                      {
+                        "lineno": 51, 
+                          "nodes": ["happy happy happy!"]
+                      }
+                ] ], 
+              "is_ref": False
+            }
+        ], 
+        [
+          "Method", 
+            {
+              "lineno": 54, 
+              "name": "getflag", 
+              "modifiers": ["public"], 
+              "params": [], 
+              "nodes": 
+                [
+                  [
+                    "Echo", 
+                      {
+                        "lineno": 55, 
+                        "nodes": ["you are over!"]
+                      }
+                  ]
+                ], 
+              "is_ref": False
+            }
+        ]
+      ]
+    }
+  
+  
