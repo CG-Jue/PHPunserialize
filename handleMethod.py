@@ -11,7 +11,7 @@ def handleMethod(temp):
     method_dict = {}
     method_dict['name'] = temp['name']
     method_dict['modifiers'] = ' '.join(temp['modifiers'])
-    method_dict['funcs'], method_dict['methods'] = parse_method_nodes(temp['nodes'])
+    method_dict['funcs'], method_dict['methods'] = handleMethodNodes(temp['nodes'])
     method_dict['params'] = []
     for i in temp['params']:
         method_dict['params'].append(i[1]['name'])
