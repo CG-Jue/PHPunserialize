@@ -6,3 +6,5 @@
 - [x] 获取其中的每一个类    getClass
 - [ ] 对每一个类进行处理    processClass
     - [ ] Method处理      handleMethod
+
+    偷懒一天
