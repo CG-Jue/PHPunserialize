@@ -1,59 +1,18 @@
 [
   [
-    "FunctionCall",
+    "Class",
     {
       "lineno": 2,
-      "name": "highlight_file",
-      "params": [
+      "name": "leiming",
+      "type": null,
+      "extends": null,
+      "implements": [],
+      "traits": [],
+      "nodes": [
         [
-          "Parameter",
-          {
-            "lineno": 2,
-            "node": [
-              "MagicConstant",
-              {
-                "lineno": 2,
-                "name": "__FILE__",
-                "value": null
-              }
-            ],
-            "is_ref": false
-          }
-        ]
-      ]
-    }
-  ],
-  [
-    "FunctionCall",
-    {
-      "lineno": 3,
-      "name": "error_reporting",
-      "params": [
-        [
-          "Parameter",
+          "ClassVariables",
           {
             "lineno": 3,
-            "node": 0,
-            "is_ref": false
-          }
-        ]
-      ]
-    }
-  ],
-  [
-    "Class",
-    {
-      "lineno": 5,
-      "name": "re",
-      "type": null,
-      "extends": null,
-      "implements": [],
-      "traits": [],
-      "nodes": [
-        [
-          "ClassVariables",
-          {
-            "lineno": 6,
             "modifiers": [
               "public"
             ],
@@ -61,8 +20,8 @@
               [
                 "ClassVariable",
                 {
-                  "lineno": 6,
-                  "name": "$chu0",
+                  "lineno": 3,
+                  "name": "$name",
                   "initial": null
                 }
               ]
@@ -72,270 +31,8 @@
         [
           "Method",
           {
-            "lineno": 7,
-            "name": "__toString",
-            "modifiers": [
-              "public"
-            ],
-            "params": [],
-            "nodes": [
-              [
-                "If",
-                {
-                  "lineno": 8,
-                  "expr": [
-                    "UnaryOp",
-                    {
-                      "lineno": 8,
-                      "op": "!",
-                      "expr": [
-                        "IsSet",
-                        {
-                          "lineno": 8,
-                          "nodes": [
-                            [
-                              "ObjectProperty",
-                              {
-                                "lineno": 8,
-                                "node": [
-                                  "Variable",
-                                  {
-                                    "lineno": 8,
-                                    "name": "$this"
-                                  }
-                                ],
-                                "name": "chu0"
-                              }
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "node": [
-                    "Block",
-                    {
-                      "lineno": 8,
-                      "nodes": [
-                        [
-                          "Return",
-                          {
-                            "lineno": 9,
-                            "node": "I can not believes!"
-                          }
-                        ]
-                      ]
-                    }
-                  ],
-                  "elseifs": [],
-                  "else_": null
-                }
-              ],
-              [
-                "ObjectProperty",
-                {
-                  "lineno": 11,
-                  "node": [
-                    "ObjectProperty",
-                    {
-                      "lineno": 11,
-                      "node": [
-                        "Variable",
-                        {
-                          "lineno": 11,
-                          "name": "$this"
-                        }
-                      ],
-                      "name": "chu0"
-                    }
-                  ],
-                  "name": [
-                    "Variable",
-                    {
-                      "lineno": 11,
-                      "name": "$nononono"
-                    }
-                  ]
-                }
-              ]
-            ],
-            "is_ref": false
-          }
-        ]
-      ]
-    }
-  ],
-  [
-    "Class",
-    {
-      "lineno": 15,
-      "name": "web",
-      "type": null,
-      "extends": null,
-      "implements": [],
-      "traits": [],
-      "nodes": [
-        [
-          "ClassVariables",
-          {
-            "lineno": 16,
-            "modifiers": [
-              "public"
-            ],
-            "nodes": [
-              [
-                "ClassVariable",
-                {
-                  "lineno": 16,
-                  "name": "$kw",
-                  "initial": null
-                }
-              ]
-            ]
-          }
-        ],
-        [
-          "ClassVariables",
-          {
-            "lineno": 17,
-            "modifiers": [
-              "public"
-            ],
-            "nodes": [
-              [
-                "ClassVariable",
-                {
-                  "lineno": 17,
-                  "name": "$dt",
-                  "initial": null
-                }
-              ]
-            ]
-          }
-        ],
-        [
-          "Method",
-          {
-            "lineno": 19,
-            "name": "__wakeup",
-            "modifiers": [
-              "public"
-            ],
-            "params": [],
-            "nodes": [
-              [
-                "Echo",
-                {
-                  "lineno": 20,
-                  "nodes": [
-                    [
-                      "BinaryOp",
-                      {
-                        "lineno": 20,
-                        "op": ".",
-                        "left": "lalalla",
-                        "right": [
-                          "ObjectProperty",
-                          {
-                            "lineno": 20,
-                            "node": [
-                              "Variable",
-                              {
-                                "lineno": 20,
-                                "name": "$this"
-                              }
-                            ],
-                            "name": "kw"
-                          }
-                        ]
-                      }
-                    ]
-                  ]
-                }
-              ]
-            ],
-            "is_ref": false
-          }
-        ],
-        [
-          "Method",
-          {
-            "lineno": 23,
-            "name": "__destruct",
-            "modifiers": [
-              "public"
-            ],
-            "params": [],
-            "nodes": [
-              [
-                "Echo",
-                {
-                  "lineno": 24,
-                  "nodes": [
-                    "ALL Done!"
-                  ]
-                }
-              ]
-            ],
-            "is_ref": false
-          }
-        ]
-      ]
-    }
-  ],
-  [
-    "Class",
-    {
-      "lineno": 28,
-      "name": "pwn",
-      "type": null,
-      "extends": null,
-      "implements": [],
-      "traits": [],
-      "nodes": [
-        [
-          "ClassVariables",
-          {
-            "lineno": 29,
-            "modifiers": [
-              "public"
-            ],
-            "nodes": [
-              [
-                "ClassVariable",
-                {
-                  "lineno": 29,
-                  "name": "$dusk",
-                  "initial": null
-                }
-              ]
-            ]
-          }
-        ],
-        [
-          "ClassVariables",
-          {
-            "lineno": 30,
-            "modifiers": [
-              "public"
-            ],
-            "nodes": [
-              [
-                "ClassVariable",
-                {
-                  "lineno": 30,
-                  "name": "$over",
-                  "initial": null
-                }
-              ]
-            ]
-          }
-        ],
-        [
-          "Method",
-          {
-            "lineno": 32,
-            "name": "__get",
+            "lineno": 4,
+            "name": "__construct",
             "modifiers": [
               "public"
             ],
@@ -343,7 +40,7 @@
               [
                 "FormalParameter",
                 {
-                  "lineno": 32,
+                  "lineno": 4,
                   "name": "$name",
                   "default": null,
                   "is_ref": false,
@@ -353,72 +50,31 @@
             ],
             "nodes": [
               [
-                "If",
+                "Assignment",
                 {
-                  "lineno": 33,
-                  "expr": [
-                    "BinaryOp",
-                    {
-                      "lineno": 33,
-                      "op": "!=",
-                      "left": [
-                        "ObjectProperty",
-                        {
-                          "lineno": 33,
-                          "node": [
-                            "Variable",
-                            {
-                              "lineno": 33,
-                              "name": "$this"
-                            }
-                          ],
-                          "name": "dusk"
-                        }
-                      ],
-                      "right": "gods"
-                    }
-                  ],
-                  "node": [
-                    "Block",
-                    {
-                      "lineno": 33,
-                      "nodes": [
-                        [
-                          "Echo",
-                          {
-                            "lineno": 34,
-                            "nodes": [
-                              "\u4ec0\u4e48\uff0c\u4f60\u7adf\u6562\u4e0d\u8ba4\u53ef?"
-                            ]
-                          }
-                        ]
-                      ]
-                    }
-                  ],
-                  "elseifs": [],
-                  "else_": null
-                }
-              ],
-              [
-                "MethodCall",
-                {
-                  "lineno": 36,
+                  "lineno": 5,
                   "node": [
                     "ObjectProperty",
                     {
-                      "lineno": 36,
+                      "lineno": 5,
                       "node": [
                         "Variable",
                         {
-                          "lineno": 36,
+                          "lineno": 5,
                           "name": "$this"
                         }
                       ],
-                      "name": "over"
+                      "name": "name"
                     }
                   ],
-                  "name": "getflag",
-                  "params": []
+                  "expr": [
+                    "Variable",
+                    {
+                      "lineno": 5,
+                      "name": "$name"
+                    }
+                  ],
+                  "is_ref": false
                 }
               ]
             ],
@@ -429,185 +85,111 @@
     }
   ],
   [
-    "Class",
+    "If",
     {
-      "lineno": 40,
-      "name": "Misc",
-      "type": null,
-      "extends": null,
-      "implements": [],
-      "traits": [],
-      "nodes": [
-        [
-          "ClassVariables",
-          {
-            "lineno": 41,
-            "modifiers": [
-              "public"
-            ],
-            "nodes": [
-              [
-                "ClassVariable",
-                {
-                  "lineno": 41,
-                  "name": "$nothing",
-                  "initial": null
-                }
-              ]
-            ]
-          }
-        ],
-        [
-          "ClassVariables",
-          {
-            "lineno": 42,
-            "modifiers": [
-              "public"
-            ],
-            "nodes": [
-              [
-                "ClassVariable",
-                {
-                  "lineno": 42,
-                  "name": "$flag",
-                  "initial": null
-                }
-              ]
-            ]
-          }
-        ],
-        [
-          "Method",
-          {
-            "lineno": 44,
-            "name": "getflag",
-            "modifiers": [
-              "public"
-            ],
-            "params": [],
-            "nodes": [
-              [
-                "Eval",
-                {
-                  "lineno": 45,
-                  "expr": "system('cat /flag');"
-                }
-              ]
-            ],
-            "is_ref": false
-          }
-        ]
-      ]
-    }
-  ],
-  [
-    "Class",
-    {
-      "lineno": 49,
-      "name": "Crypto",
-      "type": null,
-      "extends": null,
-      "implements": [],
-      "traits": [],
-      "nodes": [
-        [
-          "Method",
-          {
-            "lineno": 50,
-            "name": "__wakeup",
-            "modifiers": [
-              "public"
-            ],
-            "params": [],
-            "nodes": [
-              [
-                "Echo",
-                {
-                  "lineno": 51,
-                  "nodes": [
-                    "happy happy happy!"
-                  ]
-                }
-              ]
-            ],
-            "is_ref": false
-          }
-        ],
-        [
-          "Method",
-          {
-            "lineno": 54,
-            "name": "getflag",
-            "modifiers": [
-              "public"
-            ],
-            "params": [],
-            "nodes": [
-              [
-                "Echo",
-                {
-                  "lineno": 55,
-                  "nodes": [
-                    "you are over!"
-                  ]
-                }
-              ]
-            ],
-            "is_ref": false
-          }
-        ]
-      ]
-    }
-  ],
-  [
-    "Assignment",
-    {
-      "lineno": 58,
-      "node": [
-        "Variable",
-        {
-          "lineno": 58,
-          "name": "$ser"
-        }
-      ],
+      "lineno": 9,
       "expr": [
-        "ArrayOffset",
+        "IsSet",
         {
-          "lineno": 58,
-          "node": [
-            "Variable",
-            {
-              "lineno": 58,
-              "name": "$_GET"
-            }
-          ],
-          "expr": "ser"
+          "lineno": 9,
+          "nodes": [
+            [
+              "ArrayOffset",
+              {
+                "lineno": 9,
+                "node": [
+                  "Variable",
+                  {
+                    "lineno": 9,
+                    "name": "$_GET"
+                  }
+                ],
+                "expr": "data"
+              }
+            ]
+          ]
         }
       ],
-      "is_ref": false
-    }
-  ],
-  [
-    "FunctionCall",
-    {
-      "lineno": 59,
-      "name": "unserialize",
-      "params": [
-        [
-          "Parameter",
-          {
-            "lineno": 59,
-            "node": [
-              "Variable",
+      "node": [
+        "Block",
+        {
+          "lineno": 9,
+          "nodes": [
+            [
+              "FunctionCall",
               {
-                "lineno": 59,
-                "name": "$ser"
+                "lineno": 10,
+                "name": "highlight_file",
+                "params": [
+                  [
+                    "Parameter",
+                    {
+                      "lineno": 10,
+                      "node": [
+                        "MagicConstant",
+                        {
+                          "lineno": 10,
+                          "name": "__FILE__",
+                          "value": null
+                        }
+                      ],
+                      "is_ref": false
+                    }
+                  ]
+                ]
               }
             ],
-            "is_ref": false
-          }
-        ]
-      ]
+            [
+              "FunctionCall",
+              {
+                "lineno": 11,
+                "name": "unserialize",
+                "params": [
+                  [
+                    "Parameter",
+                    {
+                      "lineno": 11,
+                      "node": [
+                        "FunctionCall",
+                        {
+                          "lineno": 11,
+                          "name": "base64_decode",
+                          "params": [
+                            [
+                              "Parameter",
+                              {
+                                "lineno": 11,
+                                "node": [
+                                  "ArrayOffset",
+                                  {
+                                    "lineno": 11,
+                                    "node": [
+                                      "Variable",
+                                      {
+                                        "lineno": 11,
+                                        "name": "$_GET"
+                                      }
+                                    ],
+                                    "expr": "data"
+                                  }
+                                ],
+                                "is_ref": false
+                              }
+                            ]
+                          ]
+                        }
+                      ],
+                      "is_ref": false
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      "elseifs": [],
+      "else_": null
     }
   ]
 ]
