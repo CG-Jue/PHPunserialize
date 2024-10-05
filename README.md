@@ -26,5 +26,7 @@ if (isset($_GET['data'])) {
     - 方案二：把ast中不需要的数据去掉，只保留类名、方法名、参数名、变量名等
 - [x] 获取其中的每一个类    getClass
 - [ ] 对每一个类进行处理    processClass
-    - [ ] Method处理      handleMethod
+    - [x] Method处理      handleMethod
+    - [ ] Method中的nodes处理  handleMethodNodes
+    - [ ] 处理方法分开写太乱，等重构到一起写【优先】 allTools
 
