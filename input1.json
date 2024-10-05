@@ -29,9 +29,47 @@
           }
         ],
         [
-          "Method",
+          "ClassVariables",
           {
             "lineno": 4,
+            "modifiers": [
+              "public"
+            ],
+            "nodes": [
+              [
+                "ClassVariable",
+                {
+                  "lineno": 4,
+                  "name": "$age",
+                  "initial": null
+                }
+              ]
+            ]
+          }
+        ],
+        [
+          "ClassVariables",
+          {
+            "lineno": 5,
+            "modifiers": [
+              "public"
+            ],
+            "nodes": [
+              [
+                "ClassVariable",
+                {
+                  "lineno": 5,
+                  "name": "$method",
+                  "initial": null
+                }
+              ]
+            ]
+          }
+        ],
+        [
+          "Method",
+          {
+            "lineno": 6,
             "name": "__construct",
             "modifiers": [
               "public"
@@ -40,7 +78,7 @@
               [
                 "FormalParameter",
                 {
-                  "lineno": 4,
+                  "lineno": 6,
                   "name": "$name",
                   "default": null,
                   "is_ref": false,
@@ -52,15 +90,15 @@
               [
                 "Assignment",
                 {
-                  "lineno": 5,
+                  "lineno": 7,
                   "node": [
                     "ObjectProperty",
                     {
-                      "lineno": 5,
+                      "lineno": 7,
                       "node": [
                         "Variable",
                         {
-                          "lineno": 5,
+                          "lineno": 7,
                           "name": "$this"
                         }
                       ],
@@ -70,8 +108,59 @@
                   "expr": [
                     "Variable",
                     {
-                      "lineno": 5,
+                      "lineno": 7,
                       "name": "$name"
+                    }
+                  ],
+                  "is_ref": false
+                }
+              ],
+              [
+                "Assignment",
+                {
+                  "lineno": 8,
+                  "node": [
+                    "ObjectProperty",
+                    {
+                      "lineno": 8,
+                      "node": [
+                        "Variable",
+                        {
+                          "lineno": 8,
+                          "name": "$this"
+                        }
+                      ],
+                      "name": "age"
+                    }
+                  ],
+                  "expr": 18,
+                  "is_ref": false
+                }
+              ],
+              [
+                "Assignment",
+                {
+                  "lineno": 9,
+                  "node": [
+                    "ObjectProperty",
+                    {
+                      "lineno": 9,
+                      "node": [
+                        "Variable",
+                        {
+                          "lineno": 9,
+                          "name": "$this"
+                        }
+                      ],
+                      "name": "method"
+                    }
+                  ],
+                  "expr": [
+                    "New",
+                    {
+                      "lineno": 9,
+                      "name": "method",
+                      "params": []
                     }
                   ],
                   "is_ref": false
@@ -87,20 +176,20 @@
   [
     "If",
     {
-      "lineno": 9,
+      "lineno": 13,
       "expr": [
         "IsSet",
         {
-          "lineno": 9,
+          "lineno": 13,
           "nodes": [
             [
               "ArrayOffset",
               {
-                "lineno": 9,
+                "lineno": 13,
                 "node": [
                   "Variable",
                   {
-                    "lineno": 9,
+                    "lineno": 13,
                     "name": "$_GET"
                   }
                 ],
@@ -113,22 +202,22 @@
       "node": [
         "Block",
         {
-          "lineno": 9,
+          "lineno": 13,
           "nodes": [
             [
               "FunctionCall",
               {
-                "lineno": 10,
+                "lineno": 14,
                 "name": "highlight_file",
                 "params": [
                   [
                     "Parameter",
                     {
-                      "lineno": 10,
+                      "lineno": 14,
                       "node": [
                         "MagicConstant",
                         {
-                          "lineno": 10,
+                          "lineno": 14,
                           "name": "__FILE__",
                           "value": null
                         }
@@ -142,31 +231,31 @@
             [
               "FunctionCall",
               {
-                "lineno": 11,
+                "lineno": 15,
                 "name": "unserialize",
                 "params": [
                   [
                     "Parameter",
                     {
-                      "lineno": 11,
+                      "lineno": 15,
                       "node": [
                         "FunctionCall",
                         {
-                          "lineno": 11,
+                          "lineno": 15,
                           "name": "base64_decode",
                           "params": [
                             [
                               "Parameter",
                               {
-                                "lineno": 11,
+                                "lineno": 15,
                                 "node": [
                                   "ArrayOffset",
                                   {
-                                    "lineno": 11,
+                                    "lineno": 15,
                                     "node": [
                                       "Variable",
                                       {
-                                        "lineno": 11,
+                                        "lineno": 15,
                                         "name": "$_GET"
                                       }
                                     ],
