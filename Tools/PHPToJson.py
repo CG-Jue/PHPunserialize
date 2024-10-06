@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # -*- Author:zcg -*-
-# -*- Describe: 
+# -*- Time:2024-10-06 08:52:14
+# -*- Describe:
+
 '''
 作用：
 PHP代码转化为json数据，并存储在input1.json文件中
