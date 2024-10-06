@@ -37,21 +37,42 @@
     :param target_class:
     :return:
 '''
-
-from handleMethod import handleMethod
-
+import json
+# from handleMethod import handleMethod
+from getClass import get_the_classes
 def processEndClass(temp):
-    
+  # print(temp[0])
+  # print("=============================")
+  # print(temp[1])
+  
+  # exit()
   Class = {}
-  Class['name'] = temp['name']
-  Class['methods'] = []
-  Class['variables'] = []
+  allClass = []
+  for item in temp:
+    json.dump(item,open("File/input2.json",'w'), indent=4)
+    # print(item)
+    # print("=============================")
+    # continue
+    Class['name'] = item['name'] 
+    Class['methods'] = []
+    Class['variables'] = []
+    # print(Class)
+    # # continue
+    # print("=============================")
+    # print((type(item['nodes'])))
 
-  for i in temp['nodes']:
-    if i[0] == 'Method':
-      tempdata = handleMethod(i[0])
+    for i in item['nodes']:
+      # print((i))
+      # continue
+      if i[0] == 'Method':
+        # tempdata = handleMethod(i[0])
+        # print(i[1])
+        with open("File/input3.json",'w') as f:
+          json.dump(i[1],f,indent=4)
+        print("=============================")
+  # print(Class)
+  # return Class
 
+inf = open("File/input1.json","r")
 
-  return Class
-
-
+processEndClass(get_the_classes(inf)) 

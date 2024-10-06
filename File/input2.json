@@ -1,0 +1,171 @@
+{
+    "lineno": 13,
+    "name": "dierge",
+    "type": null,
+    "extends": null,
+    "implements": [],
+    "traits": [],
+    "nodes": [
+        [
+            "ClassVariables",
+            {
+                "lineno": 14,
+                "modifiers": [
+                    "public"
+                ],
+                "nodes": [
+                    [
+                        "ClassVariable",
+                        {
+                            "lineno": 14,
+                            "name": "$name",
+                            "initial": null
+                        }
+                    ]
+                ]
+            }
+        ],
+        [
+            "ClassVariables",
+            {
+                "lineno": 15,
+                "modifiers": [
+                    "public"
+                ],
+                "nodes": [
+                    [
+                        "ClassVariable",
+                        {
+                            "lineno": 15,
+                            "name": "$age",
+                            "initial": null
+                        }
+                    ]
+                ]
+            }
+        ],
+        [
+            "ClassVariables",
+            {
+                "lineno": 16,
+                "modifiers": [
+                    "public"
+                ],
+                "nodes": [
+                    [
+                        "ClassVariable",
+                        {
+                            "lineno": 16,
+                            "name": "$method",
+                            "initial": null
+                        }
+                    ]
+                ]
+            }
+        ],
+        [
+            "Method",
+            {
+                "lineno": 17,
+                "name": "__construct",
+                "modifiers": [
+                    "public"
+                ],
+                "params": [
+                    [
+                        "FormalParameter",
+                        {
+                            "lineno": 17,
+                            "name": "$name",
+                            "default": null,
+                            "is_ref": false,
+                            "type": null
+                        }
+                    ]
+                ],
+                "nodes": [
+                    [
+                        "Assignment",
+                        {
+                            "lineno": 18,
+                            "node": [
+                                "ObjectProperty",
+                                {
+                                    "lineno": 18,
+                                    "node": [
+                                        "Variable",
+                                        {
+                                            "lineno": 18,
+                                            "name": "$this"
+                                        }
+                                    ],
+                                    "name": "name"
+                                }
+                            ],
+                            "expr": [
+                                "Variable",
+                                {
+                                    "lineno": 18,
+                                    "name": "$name"
+                                }
+                            ],
+                            "is_ref": false
+                        }
+                    ],
+                    [
+                        "Assignment",
+                        {
+                            "lineno": 19,
+                            "node": [
+                                "ObjectProperty",
+                                {
+                                    "lineno": 19,
+                                    "node": [
+                                        "Variable",
+                                        {
+                                            "lineno": 19,
+                                            "name": "$this"
+                                        }
+                                    ],
+                                    "name": "age"
+                                }
+                            ],
+                            "expr": 18,
+                            "is_ref": false
+                        }
+                    ],
+                    [
+                        "Assignment",
+                        {
+                            "lineno": 20,
+                            "node": [
+                                "ObjectProperty",
+                                {
+                                    "lineno": 20,
+                                    "node": [
+                                        "Variable",
+                                        {
+                                            "lineno": 20,
+                                            "name": "$this"
+                                        }
+                                    ],
+                                    "name": "method"
+                                }
+                            ],
+                            "expr": [
+                                "New",
+                                {
+                                    "lineno": 20,
+                                    "name": "method",
+                                    "params": []
+                                }
+                            ],
+                            "is_ref": false
+                        }
+                    ]
+                ],
+                "is_ref": false
+            }
+        ]
+    ]
+}
