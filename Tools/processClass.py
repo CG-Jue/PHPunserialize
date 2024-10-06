@@ -52,6 +52,6 @@ def processEndClass(temp):
       tempdata = handleMethod(i[0])
 
 
-  return temp
+  return Class
 
 
